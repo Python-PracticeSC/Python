@@ -1,13 +1,14 @@
 import random
 import math
 
+
 #take inputs for the range the computer is to generate a number
 lower_bound = int(input('Enter lower bound of range:- '))
-
 upper_bound = int(input('Enter upper bound of range:- '))
 
-#count number of guesses made
-count = 0
+count = 0 '''count number of guesses made'''
+MAX_GUESSES = 6 '''Maximum number of guesses'''
+
 
 #generate random number
 def generateRandomNum():
