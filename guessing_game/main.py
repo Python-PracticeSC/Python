@@ -1,7 +1,7 @@
 import random
 import math
 
-def greeting():
-    print('Hello from function');
+#take inputs for the range the computer is to generate a number
+lower_bound = int(input('Enter lower bound of range:- '))
 
-greeting();
+upper_bound = int(input('Enter upper bound of range:- '))
