@@ -6,7 +6,8 @@ lower_bound = int(input('Enter lower bound of range:- '))
 
 upper_bound = int(input('Enter upper bound of range:- '))
 
-
+#count number of guesses made
+count = 0
 
 #generate random number
 def generateRandomNum():
