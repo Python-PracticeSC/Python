@@ -1,0 +1,1 @@
+A guessing game where the user has a limited number of tries to guess the random number the computer generated based off a given range of numbers.
