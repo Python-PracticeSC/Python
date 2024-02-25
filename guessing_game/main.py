@@ -31,7 +31,12 @@ def checkGuesses(random_number):
         elif guess < random_number:
             print('You guessed too small!')
         elif guess > random_number:
-            print('You guessed too high!')    
+            print('You guessed too high!')
 
+    if(count == MAX_GUESSES):
+        print('You exceeded the number of guesses allowed. Better luck next time.')
+    else:
+        print('You won!!')
+            
 random_number = generateRandomNum()
 checkGuesses(random_number)
