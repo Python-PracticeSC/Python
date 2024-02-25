@@ -20,8 +20,8 @@ def generateRandomNum():
 def checkGuesses(random_number):
     global count
     global won
-
-    while(count < MAX_GUESSES or won):
+    print(random_number)
+    while(count < MAX_GUESSES and not won):
         guess = int(input('Guess a number:- '))
         count += 1
         
