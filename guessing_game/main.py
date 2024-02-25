@@ -8,6 +8,7 @@ upper_bound = int(input('Enter upper bound of range:- '))
 
 count = 0 #count number of guesses made
 MAX_GUESSES = 6 #Maximum number of guesses
+won = false
 
 
 #generate random number
@@ -17,9 +18,9 @@ def generateRandomNum():
 
 #check guess against random number
 def checkGuesses(random_number):
+    global count
     guess = int(input('Guess a number:- '))
-
-        
+    count += 1       
 
 random_number = generateRandomNum()
 checkGuesses(random_number)
